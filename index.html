@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" onchange="myFunc1(this.value)" name="email" required />
+        <p></p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" onchange="myFunc2(this.value)" name="password" required />
+        <p></p>
+        <p></p>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
